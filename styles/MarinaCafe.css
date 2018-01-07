@@ -1,0 +1,128 @@
+/*-------------------------------Global styles-------------------------*/
+body {
+    background: url(../images/cafe1.jpg) fixed;
+    background-size: cover;
+    
+}
+@media (max-width:576px){
+    .miniBanner{
+        display: none;
+    }
+    nav a{
+        width: 50%;
+    }
+    
+}
+
+/*------------------nav----------------------------*/
+nav{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);    
+    width: 100%;
+    height: 10%;
+    
+   
+}
+nav a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+}
+nav a:hover{
+    color:orange;
+}
+nav .logo{
+    padding-top: 0;
+}
+nav img{
+    max-width: 80px;
+}
+/*---------------------main section--------*/
+.wrapper {
+    margin-top: 2.5%;
+    
+    
+    background: rgba(255, 255, 255, 0.6);
+    height: 70%;   
+    width: 60%;
+    
+    border-radius: 1%;
+    float:left;
+}
+div .logoPic{
+    max-width: 50%;
+    
+}
+div ul{
+    padding: 30px 10px 10px;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+section{
+    padding: 10px;
+    text-align: center;
+}
+.wrapper article{ 
+    float: left;
+    
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+.jobForm{
+    float: right;
+    width:60%;
+    text-align: left;
+    padding: 10px;
+}
+aside{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;    
+    margin-top: 2.5%;
+    text-align: center;
+    
+    font-family: 'Bree Serif', serif;
+    
+}
+.wrapper h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
+dd {
+    margin-bottom: 10px;
+}
+dl {
+    padding-top: 1%;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+/*-------------------footer------------------*/
+footer{
+    text-align: center;    
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 5%;
+    padding-top: 5px;
+    
+    
+}
+footer a{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;  
+    
+}
+footer a:hover {
+    color: orange;
+}

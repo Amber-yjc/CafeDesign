@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Marina Cafe Jobs Page</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="styles/MarinaCafe.css" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+   
+  
+</head>
+<body>
+    
+    <nav class=".flex-sm-column">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="index.html" class="miniBanner"><img src="images/MarinaLogo1.png" alt="banner decoration"></a>
+        <a href="performances.html">Performances</a>
+        <a href="jobs.html">Jobs</a>
+    </nav>
+    <div class="container-fluid">
+    <div class="wrapper col-xs-12 col-sm-12 col-md-10">
+    
+    <article class="col-xs-12 col-sm-12 col-md-4">
+        <header>
+            <h3>Are you a college student who would like a part time job?</h3>
+        </header>
+        <p>Apply at Marina Cafe -- we will work around your school schedule.</p>
+        <p>Complete the information form at the right to get the application process started.</p>
+        <p>Or, if you prefer, stop by Marina Cafe any time and ask about employment opportunties.</p>
+        <p>Marina Cafe is an equal opportunity employer.</p>
+        <p>We celebrate the diversity of our associates!</p>
+    </article>
+
+    <section class="jobForm col-xs-12 col-sm-12 col-md-6">
+        <header>
+            <h3>Job Application Form</h3>
+        </header>
+        <form action="job_applications.php" method="post">
+           
+            <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" maxlength="15" class="form-control" placeholder="Amber Chen" id="name" name="name" required="required"/><br />
+            </div>
+            
+            <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="example@hotmail.com" required="required"/><br />
+            </div>
+            
+             <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" class="form-control" id="phone" required><br />
+            </div>
+        
+            <label>Please select the job roles you are interested in:</label><br />
+            <div class="checkbox">            
+            <label><input type="checkbox" name="bar_associate" />Bar Associate<br /></label>
+            <label><input type="checkbox" name="server" />Server<br /></label>
+            <label><input type="checkbox" name="cleaning_maintenance" />Cleaning &amp; Maintenance<br /></label>
+            <label><input type="checkbox" name="manager" />Manager<br /></label><br />
+            </div>
+            
+            
+            <label>Employment type:</label>            
+            <label class="radio-inline"><input type="radio" name="employment_type" value="Part-time" />Part-time</label>
+            <label class="radio-inline"><input type="radio" name="employment_type" value="Full-time" />Full-time</label><br />
+            
+            
+            <label>Gender:</label>
+            <label class="radio-inline"><input type="radio" name="gender" value="Male" />Male</label>
+            <label class="radio-inline"><input type="radio" name="gender" value="Female" />Female</label><br />
+            
+            <label for="experience">Years of experience:</label>            
+            <select name="years_of_experience" class="form-control" id="experience" size="3" required>             
+                <option value="No experience">No experience</option>
+                <option value="Less than 1 year">Less than 1 year</option>
+                <option value="More than 1 year">More than 1 year</option>
+            </select><br />
+            <label for="comments">Comments:</label><br />   
+            <textarea name="comments" class="form-control" id="comments" required="required"></textarea><br />
+            <input type="submit" class="btn btn-default"><input type="reset" class="btn btn-default"/>                 
+                          
+    </form>      
+    </section>
+    </div>
+    <aside class="col-xs-12 col-sm-12 col-md-2" >
+            <p><b>Come join us!&nbsp;&hearts;</b><br>Free parking and WIFI provided at:<br />
+                  667 Lawrence Ave,<br />Kelowna, BC<br /> V1Y 6L8<br>
+                  <span class="glyphicon glyphicon-earphone"></span> 1-888-888-8888
+            </p>
+    </aside>  
+    </div>
+    <div class="container-fluid">
+    <footer class="col-xs-12 col-sm-12 col-md-12">
+        <p>Copyright &copy; 2011 Marina Cafe</p>
+        <a href='mailto&#58;&#109;%61%72in&#97;&#64;m&#97;ri&#110;&#37;61&#37;&#54;3&#97;f&#37;65&#46;c%6F&#37;6D'>marina&#64;&#109;ari&#110;acafe&#46;co&#109;</a>
+    </footer>
+    </div>
+</body>
+</html>
